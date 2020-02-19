@@ -16,6 +16,7 @@ def bazel():
 
 def bazel_buildtools_deps():
     bazel_skylib()
+    protobuf()
     rules_go()
 
 def bazel_buildtools():
